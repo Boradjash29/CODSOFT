@@ -88,7 +88,7 @@ def main():
         elif choice == '2':
             contact_book.view_contact()
         elif choice == '3':
-            search_query = input("Enter name or phone nu,ber to search: ")
+            search_query = input("Enter name or phone number to search: ")
             contact_book.search_contact(search_query)
         elif choice == '4':
             search_query = input("Enter name or Phone number to update: ")
